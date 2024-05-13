@@ -1,0 +1,92 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+}
+nav .navbar-brand {
+    color: white;
+    font-size: 30px;
+margin-right: 50%;
+}
+
+nav ul li {
+    padding: 5px;
+}
+nav ul li a{
+color: blanchedalmond;
+text-decoration: none;
+    font-size: 20px ;
+}
+
+.Hero {
+position: relative;
+}
+.welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+bottom: 10%;
+font-size: 50px;
+color: blanchedalmond;
+font-weight: bold;
+}
+/* .btn{ 
+    position: absolute;
+    top: 43%;
+    left: 50%;
+transform: translate(-50%, -50%); }*/
+
+.Menu{
+    position: relative;
+}
+.menu{
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+font-weight: bold;
+
+}
+
+.row{
+position: relative;
+}
+.col{
+  position: absolute;
+}
+.grad{
+    background-image: linear-gradient(to bottom,  #e65117e0, orange);
+}
+li{
+    font-weight: bold;
+    color: brown;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
